@@ -1,0 +1,1046 @@
+body {
+    font-family: Red Hat Text;
+    font-size: 18px;
+    color: #555555;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.block-text__title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 80px;
+    color: #222222;
+    margin-bottom: 40px;
+    font-family: 'Reem Kufi';
+}
+
+.block-text__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0 40px;
+}
+
+.header {
+    background: url('../img/patientTteeth.jpg') right/cover no-repeat;
+    min-height: 800px;
+}
+
+.header__container {}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 120px;
+}
+
+.header__logo {
+    font-family: Reem Kufi;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    max-height: 40px;
+    display: inline-block;
+}
+
+.header__logo span {
+    background-color: #1D79E4;
+    display: inline-block;
+    padding-left: 7px;
+    max-height: 40px;
+}
+
+.header__menu {
+    margin: 0 40px;
+}
+
+.menu {}
+
+.menu__list {
+    display: flex;
+    gap: 40px
+}
+
+.menu__item:hover {
+    text-decoration: underline;
+}
+
+.menu__link {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__hamburger-menu {
+    display: none;
+}
+
+.header__content {
+    width: 48%;
+}
+
+.header__text {}
+
+.header__title {
+    font-size: 90px;
+    line-height: 110px;
+    color: #FFFFFF;
+    font-family: Reem Kufi;
+}
+
+.header__description {
+    padding: 18px 0 50px;
+    line-height: 30px;
+    color: #EEEEEE;
+}
+
+.header__btn {}
+
+
+
+.button {
+    background-color: #1D79E4;
+    border-radius: 60px;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 32px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 0;
+    font-size: 18px;
+}
+
+.button_small {}
+
+.button_big {}
+
+.button:hover {
+    background-color: #458ee0;
+}
+
+
+/* ---------------------------------------- */
+.experience {
+    padding: 110px 0;
+    background: #F4F8FE;
+}
+
+.experience__container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.experience__title {
+    font-size: 80px;
+    font-family: 'Red Hat Text';
+}
+
+.experience__text {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    font-family: 'Red Hat Text';
+}
+
+.experience__block-text {
+    max-width: 270px;
+}
+
+
+
+
+.block-text {}
+
+
+
+.healthcare {
+    margin-top: 120px;
+    padding-bottom: 15px;
+    background-image: url(../img/Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: 0 75px;
+}
+
+.healthcare__container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.healthcare__img {
+    flex: 0 1 50%;
+
+}
+
+.healthcare__content {
+    flex: 0 1 50%;
+}
+
+.healthcare__block-text {}
+
+
+
+.contact {
+    padding: 130px 0;
+}
+
+.contact__body {
+    padding-bottom: 20px;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.contact__content {
+    flex: 0 1 50%;
+}
+
+.contact__img {
+    flex: 0 1 50%;
+}
+
+.contact__img-network {
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 30px;
+    border: solid #1D79E4 1px;
+
+}
+
+.contact__network {
+    padding-bottom: 40px;
+}
+
+.contact__block-text {}
+
+.contact__slider {}
+
+
+.slider__container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.slider__content {
+    box-shadow: 10px 30px 50px rgba(0, 63, 136, 0.1);
+    border-radius: 8px;
+}
+
+.slider__body {}
+
+.slider__title {}
+
+.sliser__spechialist {}
+
+
+
+.treatment {}
+
+.treatment__container {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 160px;
+}
+
+.treatment__img {
+    flex: 0 1 50%;
+}
+
+.treatment__innner {
+    flex: 0 1 50%;
+
+}
+
+.block-text__title {}
+
+.treatment__form {}
+
+.form {}
+
+.treatment__btn {}
+
+.button {}
+
+.img-reverse {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.form {}
+
+.treatment__title {
+    font-family: Reem Kufi;
+}
+
+.form__body {
+    display: flex;
+    gap: 24px;
+
+}
+
+.form__department {}
+
+.form__doctor {}
+
+.form__select {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+    margin-bottom: 40px;
+}
+
+
+.form__input {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+    margin-bottom: 40px;
+}
+
+.form__input:last-child {
+    margin-bottom: 0;
+}
+
+.form__btn {
+    padding-top: 65px;
+}
+
+.patients-says {}
+
+.patients-says__container {
+    padding: 60px 0 50px;
+    text-align: center;
+    border: 1px solid rgba(29, 121, 228, 0.02);
+    box-shadow: 20px 30px 50px rgba(0, 40, 87, 0.04);
+
+}
+
+.patients-says__title {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.patients-says__title::after {
+    content: url('../img/star.png');
+    display: block;
+    height: 20px;
+    /* position: relative; */
+    /* top: -35px; */
+}
+
+.block-text__title {}
+
+.block-text__text {}
+
+.patients-says__slider {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.slider {}
+
+
+/* 
+.slider::after {
+    content: url('../img/right.svg');
+    vertical-align: center;
+} */
+
+
+.slider__inner {}
+
+.slider__item {
+    border-radius: 100%;
+}
+
+.news {
+    padding: 130px 0;
+}
+
+.news__container {
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+    gap: 15px;
+}
+
+.news__content {
+    flex: 0 1 50%;
+}
+
+.news__subscribe {
+    padding: 2px;
+    position: relative;
+}
+
+.news__subscribe-input {
+    border: 1px solid rgba(29, 121, 228, 0.3);
+    border-radius: 60px;
+    height: 55px;
+    padding-left: 32px;
+    width: 80%;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.news__subscribe-btn {
+    position: relative;
+    bottom: 58px;
+    left: 63%;
+}
+
+.news__subscribe-btn {
+background-color: #1D79E4;
+border-radius: 60px;
+text-decoration: none;
+color: #fff;
+padding: 16px 32px;
+font-weight: 500;
+line-height: 24px;
+border: 0;
+font-size: 18px;
+}
+
+
+.footer {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #F4F8FE;
+}
+
+.footer__container {
+    padding: 50px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer__inform {
+    flex: 0 1 30%;
+
+}
+
+.footer__logo {
+    font-size: 60px;
+    line-height: 40px;
+    color: #222222;
+    font-family: 'Reem Kufi';
+}
+
+.footer__logo span {
+    color: white;
+    background-color: #1D79E4;
+    display: inline-block;
+    padding: 10px 0 10px 7px;
+}
+
+.footer__description {
+    padding-top: 30px;
+}
+
+.footer__usefull-link {}
+
+.footer__menu__link {
+
+    font-weight: 400;
+    text-decoration: none;
+    color: #555555;
+}
+
+.footer__menu__item {
+    margin-bottom: 20px;
+}
+
+.menu {}
+
+.menu__list {}
+
+.manu__item {}
+
+.menu__link {}
+
+.footer__more {}
+
+.footer__contact {}
+
+.active-item {
+    color: #222222;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.footer__menu__list.footer__menu__link:first-child {}
+
+.footer__img {
+    background-color: #1D79E4;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+
+.footer__email {
+    padding: 20px 0;
+
+}
+
+.facebook {
+    padding: 10px 15px;
+}
+
+.twitter {
+    padding: 12px 10px;
+}
+
+.instagram {
+    padding: 10px;
+}
+
+
+/* ====================================== */
+@media(max-width: 1439px) {
+    .header {
+        /* background-size: contain; */
+        min-height: 570px;
+    }
+
+    .header__title {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    .button {
+        padding: 12px 25px;
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    .slider-4 {
+        display: none;
+    }
+
+    .treatment__container {
+        padding-bottom: 70px;
+    }
+
+}
+
+@media(max-width: 1199px) {
+    .block-text__title {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .block-text__text {
+        margin: 15px 0 35px;
+    }
+
+    .img {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .experience {
+        padding: 55px 0;
+    }
+
+
+
+    .experience__title {
+        font-size: 60px;
+    }
+
+    .experience__text {
+        font-size: 21px;
+    }
+
+    .block-text__text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .healthcare {
+        margin-top: 65px;
+    }
+
+    .contact {
+        padding: 80px 0;
+    }
+
+    .form__btn {
+        padding-top: 30px;
+    }
+
+    .treatment__container {
+        padding-bottom: 45px;
+    }
+    .news {
+        padding: 105px 0;
+    }
+}
+
+
+@media(max-width: 991px) {
+    .block-text__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .block-text__text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .header {
+        min-height: 470px;
+    }
+
+    .header__title {
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+    .header__description {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .header__content {
+        width: 56%;
+    }
+
+    .experience__title {
+        font-size: 48px;
+        line-height: 30px;
+    }
+
+    .healthcare {
+        margin-top: 35px;
+    }
+
+    .contact {
+        padding: 70px 0;
+    }
+
+    .slider-3 {
+        display: none;
+    }
+
+    .treatment__container {
+        flex-direction: column;
+    }
+
+    .treatment__img {
+        margin-bottom: 15px;
+    }
+
+    .treatment__container {
+        padding-bottom: 15px;
+    }
+
+    .patients-says__title {
+        padding-bottom: 25px;
+    }
+    .news__container {
+        flex-direction: column;
+    }
+    .news {
+        padding: 70px 0;
+    }
+    .news__subscribe-input {
+        width: 95%;
+    }
+    .news__subscribe-btn {
+        left: 86%;
+    }
+    .footer__inform {
+        flex: 0 1 100%;
+    }
+    .footer__logo {
+        font-size: 50px;
+        line-height: 30px;
+    }
+    .footer__container {
+       justify-content: space-around; 
+    }
+    .footer__description {
+        padding: 25px 0;
+    }
+}
+
+
+@media(max-width: 767px) {
+    .block-text__title {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .block-text__text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .header__hamburger-menu {
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    .menu__icon,
+    .header__hamburger-menu::after,
+    .header__hamburger-menu::before {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: #fff;
+    }
+
+    .header__hamburger-menu::after,
+    .header__hamburger-menu::before {
+        content: '';
+    }
+
+    .header__hamburger-menu::after {
+        bottom: 0;
+    }
+
+    .header__hamburger-menu::before {
+        top: 0;
+    }
+
+    .menu__icon {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+    .header__hamburger-menu._active span {
+        transform: scale(0) translate(0px, -50%);
+    }
+
+    .header__hamburger-menu._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+
+    .header__hamburger-menu._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -150%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 3, 6, 0.95);
+        overflow: auto;
+        transition: left 0.3s ease 0s;
+    }
+
+    .menu._active {
+        left: 0;
+    }
+
+    .header__menu {
+        margin: 0;
+        padding: 50px;
+    }
+
+    .menu__list {
+        flex-direction: column;
+        font-size: 24px;
+    }
+
+    .header__title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .header__description {
+        font-size: 15px;
+        line-height: 20px;
+
+        padding-bottom: 32px;
+    }
+
+    .button {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    .header {
+        /* background-size: contain; */
+        min-height: 385px;
+    }
+
+    .header__content {
+        width: 61%;
+    }
+
+    .header__top {
+        min-height: 90px;
+    }
+
+    .experience {
+        padding: 30px 0;
+    }
+
+    .experience__title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .experience__text {
+        font-size: 17px;
+    }
+
+    .healthcare__container {
+        gap: 10px;
+
+    }
+
+    .contact__img-network {
+        margin-right: 15px;
+    }
+
+    .contact__network {
+        padding-bottom: 25px;
+        margin-top: -25px;
+    }
+    .news__subscribe-btn {
+        margin-top: 10px;
+        position: static;
+    }
+
+
+}
+
+
+
+@media(max-width: 630px) {
+    .block-text__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .block-text__text {}
+
+    .header {
+        min-height: 335px;
+    }
+
+    .experience {
+        padding: 30px 0 0 0;
+    }
+
+    .experience__title {
+        font-size: 35px;
+        margin-bottom: 4px;
+    }
+
+    .experience__text {
+        display: block;
+        font-size: 16px;
+    }
+
+    .healthcare__container {
+        flex-direction: column;
+    }
+
+    .healthcare__img {
+        margin-bottom: 20px;
+    }
+
+    .contact__img-network {
+        margin-right: 15px;
+    }
+
+    .contact__container {
+        flex-direction: column-reverse;
+    }
+
+    .contact__img {
+        margin-bottom: 10px;
+    }
+
+    .slider-2 {
+        display: none;
+    }
+
+    .contact {
+        padding: 55px 0;
+    }
+
+    .slider__item-4 {
+        display: none;
+    }
+    .footer__contact {
+        flex: 0 1 100%;
+    }
+}
+
+
+
+
+@media(max-width: 480px) {
+    .block-text__title {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .block-text__text {
+        font-size: 14px;
+    }
+
+    .header__description {
+        display: none;
+    }
+
+    .header__top {
+        min-height: 70px;
+    }
+
+    .header__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .header {
+        /* background-size: contain; */
+        min-height: 250px;
+    }
+
+    .experience__title {
+        font-size: 28px;
+    }
+
+    .experience__text {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .slider__item-3 {
+        display: none;
+    }
+
+    .patients-says__title {
+        padding-bottom: 0px;
+    }
+    .news__subscribe-input {
+      
+        padding-left: 10px;
+        font-size: 16px;
+    }  
+    .news__subscribe-btn {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+    .news__subscribe-input {
+        height: 40px; 
+    }
+
+}
+
+
+
+
+/* 
+@media(max-width: 1270px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+
+@media(max-width: 1270px) {
+    .header__title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .header__description {
+        line-height: 25px;
+    }
+}
+
+@media(max-width: 1270px) {
+    .button_big {
+        padding: 12px 24px;
+    }
+}
+
+@media(max-width: 1270px) {
+    .experience {
+        padding: 60px 0;
+    }
+}
+
+
+@media(max-width: 1270px) {
+    .block-text__title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .block-text__text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media(max-width: 1270px) {
+    .healthcare__img img {
+        width: 350px;
+    }
+}
+
+
+@media(max-width: 1270px) {
+    .contact__img img {
+        width: 350px;
+    }
+} */
