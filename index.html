@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:regular,500,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Reem+Kufi:regular" rel="stylesheet" />
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Teeth</title>
 </head>
@@ -79,61 +80,74 @@
         </section>
         <section class="contact">
             <div class="contact__body">
-                <div class="contact__container">
-                    <div class="contact__content">
-                        <div class="contact__block-text block-text">
-                            <div class="block-text__title">Our highly qualified Doctorsk</div>
-                            <div class="block-text__text">Lorem Ipsum is simply dummy text of the printing and
-                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-                                the 1500s...</div>
-                            <div class="contact__network">
-                                <a href="#"><img class="contact__img-network facebook" src="img/facebook_blue.png"
-                                        alt="facebook"></a>
-                                <a href="#"><img class="contact__img-network twitter" src="img/twitter_blue.png"
-                                        alt="twitter"></a>
-                                <a href="#"><img class="contact__img-network instagram" src="img/instagram_blue.png"
-                                        alt="Instagram"></a>
-                            </div>
-                            <a href="#" class="button button_small">Explor Now</a>
+                <div class="contact__container ">
+                    <div class="contact__content ">
+                        <div class="block-text__text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                            the 1500s...</div>
+                        <div class="contact__network">
+                            <a href="#"><img class="contact__img-network facebook" src="img/facebook_blue.png"
+                                    alt="facebook"></a>
+                            <a href="#"><img class="contact__img-network twitter" src="img/twitter_blue.png"
+                                    alt="twitter"></a>
+                            <a href="#"><img class="contact__img-network instagram" src="img/instagram_blue.png"
+                                    alt="Instagram"></a>
                         </div>
+                        <a href="#" class="button button_small">Explor Now</a>
                     </div>
                     <div class="contact__img">
                         <img class="img img-reverse" src="img/doctor_1.jpg" alt="healthcare">
                     </div>
                 </div>
+
             </div>
-            <div class="contact__slider slider swiper">
-                <div class=" slider__container  swiper-wrapper slider-1">
-                    <div class="slider__content swiper-slide">
-                        <img width="295px" height="298px" src="img/doctor_1.jpg" alt="doctor">
-                        <div class="slider__body">
-                            <div class="slider__title">DR: Kevin Martin</div>
-                            <div class="sliser__spechialist">Dental</div>
+
+            <!-- Slider main container -->
+            <div class="slider__container slider">
+                <div class="swiper ">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper ">
+                        <!-- Slides -->
+                        <div class="swiper-slide slide">
+                            <img src="img/doctor1.jpg" width="298px" alt="doctor">
+                            <div class="slider__body">
+                                <div class="slider__title">DR: Kevin Martin</div>
+                                <div class="sliser__spechialist">Dental</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/doctor_2.jpg" width="298px" alt="doctor">
+                            <div class="slider__body">
+                                <div class="slider__title">DR: Jesmin Akther</div>
+                                <div class="sliser__spechialist">Dental</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/doctor_3.jpg" width="298px" alt="doctor">
+                            <div class="slider__body">
+                                <div class="slider__title">DR: Sarah Albert</div>
+                                <div class="sliser__spechialist">Dental</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/doctor_4.jpg" width="298px" alt="doctor">
+                            <div class="slider__body">
+                                <div class="slider__title">DR: Retha Khan</div>
+                                <div class="sliser__spechialist">Dental</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="slider__content swiper-slide slider-2">
-                        <img width="295px" height="298px" src="img/doctor_2.jpg" alt="doctor">
-                        <div class="slider__body">
-                            <div class="slider__title">DR: Jesmin Akther</div>
-                            <div class="sliser__spechialist">Dental</div>
-                        </div>
-                    </div>
-                    <div class="slider__content swiper-slide slider-3">
-                        <img width="295px" height="298px" src="img/doctor_3.jpg" alt="doctor">
-                        <div class="slider__body">
-                            <div class="slider__title">DR: Sarah Albert</div>
-                            <div class="sliser__spechialist">Dental</div>
-                        </div>
-                    </div>
-                    <div class="slider__content swiper-slide slider-4">
-                        <img width="295px" height="298px" src="img/doctor_4.jpg" alt="doctor">
-                        <div class="slider__body">
-                            <div class="slider__title">DR: Retha Khan</div>
-                            <div class="sliser__spechialist">Dental</div>
-                        </div>
-                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
+
+
         </section>
         <section class="treatment">
             <div class="treatment__container">
@@ -221,6 +235,8 @@
             </div>
         </section>
     </main>
+
+
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__inform">
@@ -267,7 +283,40 @@
         </div>
     </footer>
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <div class="patients-says__container">
+        <div class="patients-says__title block-text__title">Our patients says</div>
+        <div class="block-text__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="patients__swiper">
+            <div class="swiper-wrapper">
+                <div class="slider__inner slide">
+                    <img class="slider__item slider__item-1" src="img/patients_1.jpg" alt="doctor">
+                </div>
+                <div class="slider__inner slide">
+                    <img class="slider__item slider__item-2" src="img/patients_2.jpg" alt="doctor">
+                </div>
+                <div class="slider__inner active slide">
+                    <img class="slider__item slider__item-3" src="img/patients_3.jpg" alt="doctor">
+                </div>
+                <div class="slider__inner slide">
+                    <img class="slider__item slider__item-4" src="img/patients_4.jpg" alt="doctor">
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 
 

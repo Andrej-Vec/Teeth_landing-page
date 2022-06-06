@@ -236,8 +236,8 @@ body._lock {
 
 .slider__container {
     display: flex;
-    justify-content: center;
-    gap: 16px;
+    align-items: center;
+
 }
 
 .slider__content {
@@ -384,7 +384,7 @@ body._lock {
 .news__container {
     display: flex;
     justify-content: space-between;
-align-items: center;
+    align-items: center;
     gap: 15px;
 }
 
@@ -414,17 +414,80 @@ align-items: center;
 }
 
 .news__subscribe-btn {
-background-color: #1D79E4;
-border-radius: 60px;
-text-decoration: none;
-color: #fff;
-padding: 16px 32px;
-font-weight: 500;
-line-height: 24px;
-border: 0;
-font-size: 18px;
+    background-color: #1D79E4;
+    border-radius: 60px;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 32px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 0;
+    font-size: 18px;
 }
 
+
+.swiper-button-next::after,
+.swiper-button-prev:after {
+    position: relative;
+
+    color: rgba(29, 121, 228, 0.5);
+    padding: 10px 20px;
+    border: 1px solid rgba(29, 121, 228, 0.5);
+    border-radius: 100%;
+}
+
+.swiper-button-next::after {
+
+    right: 100%;
+}
+
+.swiper-button-prev::after {
+    left: 100%;
+}
+
+.swiper-button-next:active::after,
+.swiper-button-prev:active::after,
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+    background-color: #1D79E4;
+    color: white;
+}
+
+.swiper-slide {
+    text-align: center;
+  
+}
+
+.slider__body {
+    text-align: left;
+    padding: 19px 0 20px 25px;
+}
+
+.slider__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    padding-bottom: 8px;
+}
+
+.slide {
+    box-shadow: 10px 30px 50px rgba(0, 63, 136, 0.1);
+}
+
+.slider__body {
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: white;
+}
 
 .footer {
     font-family: 'Red Hat Text';
@@ -604,6 +667,7 @@ font-size: 18px;
     .treatment__container {
         padding-bottom: 45px;
     }
+
     .news {
         padding: 105px 0;
     }
@@ -671,28 +735,36 @@ font-size: 18px;
     .patients-says__title {
         padding-bottom: 25px;
     }
+
     .news__container {
         flex-direction: column;
     }
+
     .news {
         padding: 70px 0;
     }
+
     .news__subscribe-input {
         width: 95%;
     }
+
     .news__subscribe-btn {
         left: 86%;
     }
+
     .footer__inform {
         flex: 0 1 100%;
     }
+
     .footer__logo {
         font-size: 50px;
         line-height: 30px;
     }
+
     .footer__container {
-       justify-content: space-around; 
+        justify-content: space-around;
     }
+
     .footer__description {
         padding: 25px 0;
     }
@@ -844,6 +916,7 @@ font-size: 18px;
         padding-bottom: 25px;
         margin-top: -25px;
     }
+
     .news__subscribe-btn {
         margin-top: 10px;
         position: static;
@@ -912,6 +985,7 @@ font-size: 18px;
     .slider__item-4 {
         display: none;
     }
+
     .footer__contact {
         flex: 0 1 100%;
     }
@@ -971,17 +1045,20 @@ font-size: 18px;
     .patients-says__title {
         padding-bottom: 0px;
     }
+
     .news__subscribe-input {
-      
+
         padding-left: 10px;
         font-size: 16px;
-    }  
+    }
+
     .news__subscribe-btn {
         padding: 8px 16px;
         font-size: 16px;
     }
+
     .news__subscribe-input {
-        height: 40px; 
+        height: 40px;
     }
 
 }
