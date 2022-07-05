@@ -326,8 +326,13 @@ body._lock {
 .form__btn {
     padding-top: 65px;
 }
-
-.patients-says {}
+.swiper-patients-button-prev:after,
+.swiper-patients-button-next::after {
+    position: relative;
+    color: rgba(29, 121, 228, 0.5);
+    padding: 10px 20px;
+    
+}
 
 .patients-says__container {
     padding: 60px 0 50px;
@@ -336,6 +341,7 @@ body._lock {
     box-shadow: 20px 30px 50px rgba(0, 40, 87, 0.04);
 
 }
+
 
 .patients-says__title {
     position: relative;
@@ -348,6 +354,13 @@ body._lock {
     height: 20px;
     /* position: relative; */
     /* top: -35px; */
+}
+.patients-say {
+    max-width: 658px;
+}
+
+.patients-active{
+    width: 95px;
 }
 
 .block-text__title {}
@@ -426,12 +439,23 @@ body._lock {
 }
 
 
-.swiper-button-next::after,
-.swiper-button-prev:after {
+.swiper-doctors .swiper-button-next::after,
+.swiper-doctors .swiper-button-prev:after {
     position: relative;
 
     color: rgba(29, 121, 228, 0.5);
     padding: 10px 20px;
+    border: 1px solid rgba(29, 121, 228, 0.5);
+    border-radius: 100%;
+}
+
+.patients-say .swiper-button-next::after,
+.patients-say .swiper-button-prev:after {
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(29, 121, 228, 0.5);
+    padding: 10px 13px;
     border: 1px solid rgba(29, 121, 228, 0.5);
     border-radius: 100%;
 }
@@ -443,6 +467,15 @@ body._lock {
 
 .swiper-button-prev::after {
     left: 100%;
+}
+
+.patients-say .swiper-button-next::after {
+
+    right: -24%;
+}
+
+.patients-say .swiper-button-prev::after {
+    left: -24%;
 }
 
 .swiper-button-next:active::after,
@@ -488,6 +521,7 @@ body._lock {
     font-size: 14px;
     color: white;
 }
+
 
 .footer {
     font-family: 'Red Hat Text';
@@ -982,10 +1016,7 @@ body._lock {
         padding: 55px 0;
     }
 
-    .slider__item-4 {
-        display: none;
-    }
-
+   
     .footer__contact {
         flex: 0 1 100%;
     }
@@ -1036,10 +1067,6 @@ body._lock {
     .experience__text {
         font-size: 14px;
         margin: 0;
-    }
-
-    .slider__item-3 {
-        display: none;
     }
 
     .patients-says__title {

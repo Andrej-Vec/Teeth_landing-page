@@ -104,7 +104,7 @@
 
             <!-- Slider main container -->
             <div class="slider__container slider">
-                <div class="swiper ">
+                <div class="swiper swiper-doctors">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper ">
                         <!-- Slides -->
@@ -197,19 +197,25 @@
                     and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
                     leap into electronic typesetting, remaining essentially unchanged.
                 </div>
-                <div class="patients-says__slider slider">
-                    <div class="slider__inner">
-                        <img class="slider__item slider__item-1" src="img/patients_1.jpg" alt="doctor">
+                <div class="patients-say swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <img data-war="4" width="80px"  class=" slider-patients slider__item slider__item-1" src="img/patients_1.jpg" alt="doctor">
+                        </div>
+                         <div class="swiper-slide ">
+                            <img data-war="5"  width="80px"   class="slider-patients slider__item slider__item-2" src="img/patients_2.jpg" alt="doctor">
+                        </div>
+                        <div class="swiper-slide ">
+                            <img data-war="6" width="80px"  class=" slider-patients slider__item slider__item-3" src="img/patients_3.jpg" alt="doctor">
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-war="7" width="80px"  class=" slider-patients slider__item slider__item-4" src="img/patients_4.jpg" alt="doctor">
+                        </div>
                     </div>
-                    <div class="slider__inner">
-                        <img class="slider__item slider__item-2" src="img/patients_2.jpg" alt="doctor">
-                    </div>
-                    <div class="slider__inner active">
-                        <img class="slider__item slider__item-3" src="img/patients_3.jpg" alt="doctor">
-                    </div>
-                    <div class="slider__inner">
-                        <img class="slider__item slider__item-4" src="img/patients_4.jpg" alt="doctor">
-                    </div>
+                      <!-- If we need navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                   
                 </div>
             </div>
         </section>
@@ -283,37 +289,10 @@
         </div>
     </footer>
 
-    <div class="patients-says__container">
-        <div class="patients-says__title block-text__title">Our patients says</div>
-        <div class="block-text__text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-            leap into electronic typesetting, remaining essentially unchanged.
-        </div>
-        <div class="patients__swiper">
-            <div class="swiper-wrapper">
-                <div class="slider__inner slide">
-                    <img class="slider__item slider__item-1" src="img/patients_1.jpg" alt="doctor">
-                </div>
-                <div class="slider__inner slide">
-                    <img class="slider__item slider__item-2" src="img/patients_2.jpg" alt="doctor">
-                </div>
-                <div class="slider__inner active slide">
-                    <img class="slider__item slider__item-3" src="img/patients_3.jpg" alt="doctor">
-                </div>
-                <div class="slider__inner slide">
-                    <img class="slider__item slider__item-4" src="img/patients_4.jpg" alt="doctor">
-                </div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+   
 
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-    </div>
+
+  
 
 
     <script src="js/swiper-bundle.min.js"></script>

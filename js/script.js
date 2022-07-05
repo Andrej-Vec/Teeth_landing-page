@@ -15,7 +15,7 @@ if (iconMenu) {
 //    spaceBetween: 100,
 //  });
 
-new Swiper('.swiper', {
+new Swiper('.swiper-doctors', {
    navigation: {//стрелки
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -30,9 +30,11 @@ new Swiper('.swiper', {
    simulateTouch: false,//перетаскивания слайда на пк
    slidesPerView: 4,
    loop:true,//бесконечный слайдер
-   spaceBerween: 30,
-
+   spaceBetween: 30,
     breakpoints : {
+      0: {
+         slidesPerView: 1
+      },
       320: {
          slidesPerView: 1
       },
@@ -50,31 +52,25 @@ new Swiper('.swiper', {
       }
    } 
 });  
-
-new Swiper('.patients__swiper', {
+const data = document.querySelectorAll('.slider-patients');
+new Swiper('.patients-say', {
    navigation: {//стрелки
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
    },
-   pagination: {//навигация: булеты, текущее положение
-      el: '.swiper-pagination',
-      //булеты
-      type: 'bullets',
-      clickable: true,//
-      dynamicBullets: true,
-   },
-   simulateTouch: false,//перетаскивания слайда на пк
-   slidesPerView: 1,
-   loop:true,//бесконечный слайдер
-   spaceBerween: 30,
-
+   slidesPerView: 4,
    
-});  
+   loop:true,//бесконечный слайдер
+   /* spaceBetween: 50, */
+  
+});   
 
 
 
-"use strict";
 
-const obg = {get x() {return 17;}};
-obg.x = 5;
-console.log(++obg.x);
+
+
+
+ 
+
+
